@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSANJ x Nescafé – Project</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #3b2d23; /* coklat kopi gelap */
+            color: #f7e9d7; /* cream latte */
+        }
+
+        header {
+            padding: 90px 20px;
+            text-align: center;
+            background: url('bg.jpg') center/cover no-repeat;
+            position: relative;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(30, 20, 15, 0.65); /* overlay coklat gelap */
+        }
+
+        header .content {
+            position: relative;
+            z-index: 2;
+        }
+
+        header h1 {
+            font-size: 55px;
+            margin: 0;
+            font-weight: 700;
+            color: #f7e5c5;
+            text-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        header p {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+
+        
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .box {
+            background: #4a372c;
+            padding: 25px;
+            border-radius: 18px;
+            margin: 40px 0;
+            border: 1px solid rgba(255,255,255,0.15);
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+            animation: fadeIn 0.7s ease forwards;
+        }
+
+
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to   {opacity: 1; transform: translateY(0);}
+        }
+
+        h2 {
+            text-align: center;
+            color: #f8dec4;
+            margin-bottom: 10px;
+        }
+
+        .line {
+            width: 150px;
+            height: 4px;
+            background: #d9b38c;
+            margin: 10px auto 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(200,160,120,0.7);
+        }
+
+    
+        video, img, iframe {
+            width: 100%;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        }
+
+        
+        .anggota {
+            font-size: 18px;
+            text-align: center;
+            line-height: 1.9;
+            color: #f9e8d8;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="content">
+            <h1>OSANJ x Nescafé</h1>
+            <p>We believe that great coffee begins with great collaboration. Together with Nescafé, we craft high-quality drinks made from selected beans and fresh ingredients. Bringing a bold, comforting taste to everyone who walks through our doors.</p>
+        </div>
+    </header>
+
+    <div class="container">
+
+        
+        <div class="box">
+            <h2>Meet Our Team</h2>
+            <div class="line"></div>
+
+            <div class="anggota">
+                1. Caroleen Julieta <br>
+                2. Jeanne Irine <br>
+                3. Kristanto Agung <br>
+                4. Neysa Andena <br>
+                5. Selva Meylan <br>
+            </div>
+        </div>
+
+    
+        <div class="box">
+            <h2>Sneak Peek: Something New is Brewing</h2>
+            <div class="line"></div>
+
+            <video controls>
+                <source src="Iklan 1.mov" type="video/mp4">
+            </video>
+        </div>
+
+    
+        <div class="box">
+            <h2>Crafted with Love and Care</h2>
+            <div class="line"></div>
+
+            <video controls>
+                <source src="Iklan 3.mov" type="video/mp4">
+            </video>
+        </div>
+
+        
+        <div class="box">
+            <h2>Our Newest Product</h2>
+            <div class="line"></div>
+
+            <img src="Flyer.png" alt="Dalgona Coffee">
+        </div>
+
+    
+        <div class="box">
+            <h2>What It Takes to Make a Cup</h2>
+            <div class="line"></div>
+
+            <iframe src="HPP OSANJ.pdf" height="600"></iframe>
+        </div>
+
+         <div class="box">
+            <h2>PROJECT KOLABORASI SAS</h2>
+            <div class="line"></div>
+
+            <p style="font-size: 18px; line-height: 1.8; text-align: center; color: #f9e8d8;">
+                Website ini dibuat untuk penilaian akhir semester kelas 12 SMK Pangudi Luhur Tarcisius terutama mapel kolaborasi Matematika, PKK, dan Coding. Produk yang kami cantumkan merupakan produk buatan kami sendiri. Kami menyusun konsep promosi sebuah Coffee Shop yang melakukan kolaborasi dengan produk kopi terkenal yaitu Nescafé. 
+       <p style="font-size: 18px; line-height: 1.8; text-align: center; color: #f9e8d8;">
+                OSANJ adalah singkatan dari Olin, Selva, Agung, Neysa, dan Jeanne. (Anggota Kelompok) 
+            </div>
+    
+        </div>
+
+    </div>
+
+</body>
+</html>
